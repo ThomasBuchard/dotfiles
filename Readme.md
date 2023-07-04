@@ -8,4 +8,4 @@ Created with chezmoi
 - OhMyZsh
 - Packer.nvim
 - ripgrep
-
+- tmux
