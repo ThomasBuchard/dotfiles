@@ -115,6 +115,13 @@ eval "$(zoxide init zsh)"
 
 # eval "$(zellij setup --generate-auto-start zsh)"
 
+# Add stuff to path
 path+=('/home/thomas/.local/bin')
 path+=('/home/thomas/bin/')
 
+# Set alias for nvim
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
+alias cat='bat'
+alias ls='lsd'
