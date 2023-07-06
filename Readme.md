@@ -1,6 +1,5 @@
 Created with chezmoi
 
-
 ## Prerequesites
 
 - Zoxide
@@ -9,3 +8,7 @@ Created with chezmoi
 - Packer.nvim
 - ripgrep
 - tmux
+- fd-find
+- build-essentials
+- npm
+- lazygit
