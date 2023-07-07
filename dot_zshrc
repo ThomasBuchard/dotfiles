@@ -125,3 +125,11 @@ alias vi='nvim'
 alias v='nvim'
 alias cat='bat'
 alias ls='lsd'
+
+
+# Source custom zsh file
+if [ -r ~/.zshrc-custom ]; then
+
+  source ~/.zshrc-custom
+
+fi
