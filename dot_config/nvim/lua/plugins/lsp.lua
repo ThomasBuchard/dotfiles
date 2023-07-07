@@ -10,6 +10,7 @@ return {
         pyright = {},
         marksman = {},
         ltex = { language = "en-US" },
+        phpactor = {},
       },
     },
   },

@@ -12,3 +12,4 @@ Created with chezmoi
 - build-essentials
 - npm
 - lazygit
+- Go Lang installed
