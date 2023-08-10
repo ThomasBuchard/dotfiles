@@ -1,16 +1,13 @@
 return {
-  -- add pyright to lspconfig
   {
     "neovim/nvim-lspconfig",
-    ---@class PluginLspOpts
     opts = {
-      ---@type lspconfig.options
       servers = {
-        -- pyright will be automatically installed with mason and loaded with lspconfig
-        pyright = {},
         marksman = {},
         ltex = { language = "en-US" },
-        phpactor = {},
+        omnisharp = {
+          cmd = { "dotnet", "C:/Users/tbuch/AppData/Local/nvim-data/mason/packages/omnisharp/libexec/OmniSharp.dll" },
+        },
       },
     },
   },
@@ -21,6 +18,9 @@ return {
     opts = {
       ensure_installed = {
         "bash",
+        "c_sharp",
+        "go",
+        "gomod",
         "html",
         "javascript",
         "json",
